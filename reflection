@@ -1,0 +1,13 @@
+# In the process of developing the code, I implemented security mechanisms to safeguard the data retrieval process by incorporating an API key ('apikey') within the request headers. This key ensures that only authorized users can access the Yahoo Finance API. To fortify security, I stored the API key securely and avoided direct hardcoding in the code. Throughout testing, I encountered errors primarily related to syntax and accurate data extraction. Specifically, there was a coding error when attempting to access the 'longName' property, which was resolved by correcting the syntax to navigate the JSON response accurately. The testing phase also revealed the need for more robust error handling, such as verifying the success of the API request before parsing the JSON response to prevent potential issues. Additionally, I acknowledged the importance of user input validation to handle potential mistakes in stock symbol entry. To overcome coding challenges, I turned to various learning resources, including Python documentation, online forums like Stack Overflow, and the Yahoo Finance API documentation. Moreover, I sought assistance from my professor and utilized online sources provided by the class to address gaps in my understanding and effectively handle information that was unfamiliar. Notably, a key learning point involved maneuvering through the JSON response structure to differentiate between "quoteSummary" and "quoteResponse" to access the relevant data accurately. This process was facilitated by employing the 'print(result)' statement to visualize the JSON response structure during development, aiding in debugging and ensuring precise data extraction.
+
+
+
+
+
+
+
+
+
+
+
+
